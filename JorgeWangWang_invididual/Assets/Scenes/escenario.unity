@@ -104643,7 +104643,7 @@ GameObject:
   - component: {fileID: 2024512405}
   - component: {fileID: 2024512406}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: sonido de pajaros
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -108063,7 +108063,7 @@ GameObject:
   - component: {fileID: 2083932155}
   - component: {fileID: 2083932156}
   m_Layer: 0
-  m_Name: Audio Source (1)
+  m_Name: viento oeste
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
