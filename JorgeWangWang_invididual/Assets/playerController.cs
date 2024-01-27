@@ -7,7 +7,7 @@ public class playerController : MonoBehaviour
     private CharacterController charactecontroller;
     [SerializeField] new  private Transform camera;
     [SerializeField] private float speed = 4;
-    [SerializeField] private float gravity = -9.8f;
+    private float gravity = -9.8f;
     private Animator animator;
     [SerializeField]private float sprint;
     private float velocidads;
@@ -30,7 +30,6 @@ public class playerController : MonoBehaviour
         speed = velocidads;
         if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
         {
-            // Realiza alguna acción cuando Shift está presionado
             speed += sprint;
             sprintd = -1;
         }

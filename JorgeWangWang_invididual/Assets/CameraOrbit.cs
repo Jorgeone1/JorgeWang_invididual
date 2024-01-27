@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraOrbit : MonoBehaviour
 {
     // Start is called before the first frame update
-    private Vector2 angle= new Vector2(-90 * Mathf.Deg2Rad,0);
+    private Vector2 angle= new Vector2(90 * Mathf.Deg2Rad,0);
     [SerializeField]private Transform follow;
     [SerializeField]private float distancia;
     [SerializeField] private Vector2 sensibility;
