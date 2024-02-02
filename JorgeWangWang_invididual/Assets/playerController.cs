@@ -46,11 +46,11 @@ public class playerController : MonoBehaviour
             Vector3 direction = forward * ver + right * hor;
             movementspeed = Mathf.Clamp01(direction.magnitude) * sprintd;
             direction.Normalize();
-            movement = direction * speed * Time.deltaTime;  
+            movement = direction * speed * Time.deltaTime;
             transform.rotation = Quaternion.Slerp(transform.rotation,Quaternion.LookRotation(direction),1);
             
         }
-
+        
         animator.SetFloat("speedx", movementspeed);
         movement.y += gravity*Time.deltaTime;
         charactecontroller.Move(movement);
